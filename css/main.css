@@ -250,9 +250,14 @@ footer {
     color: white;
 }
 .navbar ul>li>a {
+    transition: all 0.2s;
     color: white;
+    opacity: 0.9;
 }
-
+.navbar ul>li>a:hover {
+    opacity: 1;
+    text-decoration: none;
+}
 .navbar ul>li:hover {
     color: rgba(0, 0, 0, 0.753);
 }
