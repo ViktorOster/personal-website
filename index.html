@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viktor Österholm - Web Development & Design</title>
+    <link href="https://fonts.googleapis.com/css?family=Muli:400,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <div class="contact-strip">
+        <div class="container">
+            <span class="phone-number">+358-505-265598</span>
+            <span>Osterholmv@gmail.com</span>
+        </div>
+    </div>
+
+    <nav class="navbar">
+        <div class="container">
+            <a href="./index.html" class="navbar__logo">
+                <img src="./assets/images/logo.svg" alt="">
+            </a>
+            <ul>
+                <li><a href="./#work">Work</a></li>
+                <li><a href="./#about">About</a></li>
+                <li><a class="button button--outline" href="./contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <nav class="navbar-mobile">
+        <div class="container">
+            <a href="./index.html" class="navbar-mobile__logo">
+                <img src="./assets/images/logo.svg" alt="">
+            </a>
+
+            <div class="text-right">
+                <div id="hamburger">
+                    <div id="hamburger__line-1"></div>
+                    <div id="hamburger__line-2"></div>
+                    <div id="hamburger__line-3"></div>
+                </div>
+            </div>
+        </div>
+
+        <ul id="navbar-mobile__links" class="ml-auto mr-auto">
+            <li><a href="./#work">Work</a></li>
+            <li><a href="./#about">About</a></li>
+            <li><a class="button button--outline" href="./contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+
+    <main>
+        <div class="hero parallax-window" data-parallax="scroll" data-image-src="./assets/images/hero-screens.jpg">
+
+            <div class="container">
+                <h1 class="mb-4" data-aos="fade-in" data-aos-offset="400" data-aos-duration="500">
+                    Hi! I’m Viktor, I’m a <span class="text-replace" id="hero-text-replace">web developer.</span>
+                </h1>
+
+                <img class="mb-4" data-aos="fade-in" data-aos-offset="400" data-aos-duration="500"
+                    src="./assets/images/branding-arrow-down.svg" alt="">
+                <p>
+                    I’m a developer and CS student that loves building and designing web apps and websites.
+                </p>
+            </div>
+        </div>
+        <section id="work" class="text-center">
+            <div class="container container--wide">
+                <h2>Work.</h2>
+                <div class="filter-group" id="work-filter-group">
+                    <button class="filter work-filter button is-selected" value="all" data-js="filter-all">All</button>
+                    <button class="filter work-filter button" value="web-dev" id="filter-web-dev">Web dev</button>
+                    <button class="filter work-filter button" value="web-design" id="filter-web-design">Web
+                        design</button>
+                    <button class="filter work-filter button" value="game-dev" id="filter-game-dev">Game dev</button>
+                </div>
+                <div class="row mt-4" id="works-container">
+                    <div class="col col-12 col-sm-6 col-md-4">
+                        <div class="work">
+
+                            <img class="work__screenshot" src="assets/images/works/work-laptop-spms.png" alt="">
+
+                            <a href="www.wolfthronestudios.com">www.wolfthronestudios.com</a>
+                            <a href=""><img class="icon" src="./assets/icons/github-face.svg" alt=""></a>
+
+                            <p>
+                                Pedersöreläisen nauhoitusstudion yksilölliset kotisivut
+                            </p>
+                            <button class="button button--main">View code</button>
+
+                        </div>
+                    </div>
+                    <div class="col col-12 col-sm-6 col-md-4">
+                        <div class="work">
+                            <img class="work__screenshot" src="assets/images/work-laptop-wolfthrone.png" alt="">
+                            <a href="www.wolfthronestudios.com">www.wolfthronestudios.com</a>
+                            <p>
+                                Pedersöreläisen nauhoitusstudion yksilölliset kotisivut
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col col-12 col-sm-6 col-md-4">
+                        <div class="work">
+                            <img class="work__screenshot" src="assets/images/work-laptop-wolfthrone.png" alt="">
+                            <a href="www.wolfthronestudios.com">www.wolfthronestudios.com</a>
+                            <p>
+                                Pedersöreläisen nauhoitusstudion yksilölliset kotisivut
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <img id="work__watermark" src="./assets/images/watermark-polygons.svg" alt="" class="parallax-window"
+                data-parallax="scroll" data-image-src="./assets/images/watermark-polygons.svg">
+        </section>
+
+        <section id="about" class="text-center">
+            <div class="container">
+                <h2 class="heading--smaller">About.</h2>
+                <p>
+                    I have a passion for programming and web development in particular. I love problem solving and
+                    turning ideas into reality using code.
+                </p>
+                <p>
+                    Apart from programming, I enjoy creating great user experiences and functional designs – I just love
+                    making stuff. I’m always learning and striving to be the best that I can be.
+                </p>
+                <p>
+                    I’m always open for new opportunities so don’t hesitate to get in touch.
+                </p>
+                <button class="button button--main mt-3">Contact me</button>
+            </div>
+
+        </section>
+
+        <footer>
+            <div class="container">
+                &copy; Viktor Österholm 2020
+            </div>
+        </footer>
+    </main>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="js/parallax.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="js/worksData.js"></script>
+    <script src="js/index.js"></script>
+
+</body>
+
+</html>
