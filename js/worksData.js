@@ -192,8 +192,8 @@ const worksData = [
     },
     {
         "name": "Jarl Hohenthal",
-        "description": "Website for Jarl Hohenthal, a glass artist in Kimito, Finland",
-        "descriptionShort": "Website for Jarl Hohenthal, a glass artist in Kimito, Finland",
+        "description": "Website in progress for Jarl Hohenthal, a glass artist in Kimito, Finland",
+        "descriptionShort": "Website in progress for Jarl Hohenthal, a glass artist in Kimito, Finland",
         "technologies": [
             "JavaScript",
             "WordPress",
