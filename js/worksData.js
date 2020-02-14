@@ -205,5 +205,33 @@ const worksData = [
         "projectLink": "http://newerdomain.icu/",
         "codeLink": "",
         "importance": 1
+    },
+    {
+        "name": "Trndda",
+        "description": "Website in progress for a SaaS startup in Ghana",
+        "descriptionShort": "Website in progress for a SaaS startup in Ghana",
+        "technologies": [
+            "JavaScript",
+            "CSS3"
+        ],
+        "category": "web-design",
+        "image": "work-laptop-trndda.png",
+        "projectLink": "http://pumped-ants.surge.sh",
+        "codeLink": "",
+        "importance": 1
+    },
+    {
+        "name": "Japanese Restaurant",
+        "description": "Website concept for a japanese restaurant",
+        "descriptionShort": "Website concept for a japanese restaurant",
+        "technologies": [
+            "JavaScript",
+            "CSS3"
+        ],
+        "category": "web-design",
+        "image": "work-laptop-japanese-restaurant.png",
+        "projectLink": "http://sushibysaito.surge.sh",
+        "codeLink": "",
+        "importance": 1
     }
 ]
